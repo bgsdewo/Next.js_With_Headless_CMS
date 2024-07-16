@@ -1,11 +1,5 @@
-//karena nextjs app ini berbasis server tapi jika ingin
-//mengubahnya ke client side maka cukup tambahkan
-"use client";
-import { useEffect } from "react";
 export default function Home() {
-  useEffect(() => {
-    window.alert("Hello world");
-  }, []);
+  console.log("Hello World");
   return (
     <>
       <h1>My Next.js App</h1>
