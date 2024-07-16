@@ -1,0 +1,4 @@
+cara ngerun nextjs
+-npx next dev
+
+ctrl+c = buat matiin run dari nextjs
