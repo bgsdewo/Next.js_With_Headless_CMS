@@ -1,7 +1,9 @@
+import Heading from "../../../components/Heading";
+
 export default function PostPage() {
   return (
     <>
-      <h1>Belajar Next Js</h1>
+      <Heading>Belajar Next Js</Heading>
       <p>Halaman dari Blog</p>
     </>
   );
