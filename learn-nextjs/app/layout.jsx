@@ -6,10 +6,10 @@ export default function Layout({ children }) {
       <head>
         <title>LearnNextJs</title>
       </head>
-      <body>
+      <body className="flex flex-col px-4 py-4 min-h-screen">
         <header>
           <nav>
-            <ul>
+            <ul className="flex gap-2">
               <li>
                 <Link href="/">Home</Link>
               </li>
@@ -27,8 +27,8 @@ export default function Layout({ children }) {
             </ul>
           </nav>
         </header>
-        <main>{children}</main>
-        <footer>
+        <main className="py-3 grow">{children}</main>
+        <footer className="border-t py-3 text-center text-xs">
           <hr />
           <span>I m Here to stay</span>
         </footer>
