@@ -13,6 +13,14 @@ export default function BlogPage() {
         date="13.01.2022"
         author="Admin"
       />
+      <PostCard
+        title="Belajar Next.js"
+        href="/blog/belajar-nextjs"
+        image="/images/image-1.jpg"
+        description="Belajar Next.js panjang"
+        date="13.01.2022"
+        author="Admin"
+      />
     </>
   );
 }
