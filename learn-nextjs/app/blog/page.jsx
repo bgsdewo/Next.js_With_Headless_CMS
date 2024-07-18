@@ -1,6 +1,9 @@
 import Heading from "@/components/Heading";
 import PostCard from "@/components/PostCard";
-export default function BlogPage() {
+import { getAllPosts } from "@/lib/post";
+export default async function BlogPage() {
+  const posts = await getAllPosts();
+  console.log(posts);
   return (
     <>
       <Heading>Blog</Heading>
