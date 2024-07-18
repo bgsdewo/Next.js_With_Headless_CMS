@@ -1,5 +1,6 @@
 ---
 title: "Belajar Next.Js"
+description: "deskripsi cukup panjang untuk tema post"
 image: "/images/image-1.jpg"
 date: "18/07/2024"
 author: "Admin"

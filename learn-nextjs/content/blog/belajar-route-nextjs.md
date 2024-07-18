@@ -1,5 +1,6 @@
 ---
 title: "Belajar route next.Js"
+description: "deskripsi cukup panjang untuk tema post"
 image: "/images/image-2.jpg"
 date: "18/07/2024"
 author: "Admin"

@@ -1,5 +1,6 @@
 ---
 title: "Belajar hasil next.Js"
+description: "deskripsi cukup panjang untuk tema post"
 image: "/images/image-3.jpg"
 date: "18/07/2024"
 author: "Admin"
