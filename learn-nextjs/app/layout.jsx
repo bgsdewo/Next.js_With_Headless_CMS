@@ -4,9 +4,6 @@ import "./globals.css";
 export default function Layout({ children }) {
   return (
     <html lang="en" className={roboto.variable}>
-      <head>
-        <title>LearnNextJs</title>
-      </head>
       <body className="bg-gray-100 flex flex-col px-4 py-4 min-h-screen">
         <header>
           <Navbar />
