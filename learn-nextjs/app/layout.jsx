@@ -1,6 +1,14 @@
 import { roboto } from "./fonts";
 import Navbar from "../components/Navbar";
 import "./globals.css";
+
+export const metadata = {
+  title: {
+    default: "Situs Next.js",
+    template: "%s | Situs Next.js",
+  },
+  description: "Kumpulan Tutuorial",
+};
 export default function Layout({ children }) {
   return (
     <html lang="en" className={roboto.variable}>
